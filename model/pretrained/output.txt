@@ -1,0 +1,6 @@
+new task=D2S pad=0:Recall@1:85.19 Recall@5:94.96 Recall@10:96.58 Recall@top1:96.76 AP:87.43
+new task=D2S pad=20:Recall@1:84.42 Recall@5:94.74 Recall@10:96.44 Recall@top1:96.65 AP:86.78
+new task=D2S pad=40:Recall@1:82.46 Recall@5:94.18 Recall@10:96.12 Recall@top1:96.33 AP:85.13
+new task=D2S pad=60:Recall@1:79.22 Recall@5:93.34 Recall@10:95.53 Recall@top1:95.75 AP:82.43
+new task=D2S pad=80:Recall@1:74.73 Recall@5:92.00 Recall@10:94.58 Recall@top1:94.89 AP:78.63
+new task=D2S pad=100:Recall@1:69.39 Recall@5:90.08 Recall@10:93.45 Recall@top1:93.80 AP:74.05

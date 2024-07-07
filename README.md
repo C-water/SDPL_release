@@ -10,7 +10,7 @@ Download [University-1652](https://github.com/layumi/University1652-Baseline) up
 ## Evaluation University-1652
 ```
 1.  Download the pre-trained weight: net_350.pth
-    
+(https://drive.google.com/file/d/1l2Dh7BtwafSZ9abPWuJ9maov2cCYUS8U/view?usp=sharing)
 
 2.  Move the weight to ./model/pretrained/
 

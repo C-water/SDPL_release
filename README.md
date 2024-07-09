@@ -1,5 +1,5 @@
 
-# [TCSVT 2024] SDPL: Shifting-Dense Partition Learning for UAV-view Geo-localization
+# [TCSVT 2024] [SDPL: Shifting-Dense Partition Learning for UAV-view Geo-localization](https://ieeexplore.ieee.org/document/10587023)
 
 
 

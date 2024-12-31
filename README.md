@@ -26,16 +26,20 @@ If you want to adjust padding pixels, change pad_value of runt.sh.
 If you want to adjust padding patterns, change line 115 of image_folder.py.
 
     For (+P,0), img = transforms.functional.pad(img,(self.pad,0,0,0),padding_mode='reflect')
-    
-    For (+P,+P), img = transforms.functional.pad(img,(self.pad,self.pad,0,0),padding_mode='reflect')
-    
-    For (-P,-P), img = transforms.functional.pad(img,(0,0,self.pad,self.pad),padding_mode='reflect')
-    
-    For (+P,-P), img = transforms.functional.pad(img,(self.pad,0,0,self.pad),padding_mode='reflect')
-    
-    For (-P,+P), img = transforms.functional.pad(img,(0,self.pad,self.pad,0),padding_mode='reflect')
-```
+                img = transforms.functional.five_crop(img,(512,512))[0]
 
+    For (+P,+P), img = transforms.functional.pad(img,(self.pad,self.pad,0,0),padding_mode='reflect')
+                 img = transforms.functional.five_crop(img,(512,512))[0]
+
+    For (-P,-P), img = transforms.functional.pad(img,(0,0,self.pad,self.pad),padding_mode='reflect')
+                 img = transforms.functional.five_crop(img,(512,512))[3]
+
+    For (+P,-P), img = transforms.functional.pad(img,(self.pad,0,0,self.pad),padding_mode='reflect')
+                 img = transforms.functional.five_crop(img,(512,512))[2]
+
+    For (-P,+P), img = transforms.functional.pad(img,(0,self.pad,self.pad,0),padding_mode='reflect')
+                 img = transforms.functional.five_crop(img,(512,512))[1]
+```
 
 
 ## Our Related Works
